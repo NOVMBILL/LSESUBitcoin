@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>LSESU Bitcoin Society Landing Page</title>
+  <style>
+    /* =======================
+       GLOBAL CONFIG / STYLES
+       ======================= */
+    :root {
+      --font-primary: 'Source Serif Pro', 'IBM Plex Mono', serif;
+      --font-secondary: 'Inter', 'System UI', sans-serif;
+      --color-primary: #f7931a;        /* Bitcoin orange */
+      --color-secondary: #000000;      /* Black for contrast */
+      --color-background: #ffffff;     /* Clean white */
+      --color-accent: #cccccc;         /* Muted borders, dividers */
+      --layout-width-max: 800px;
+    }
+    body {
+      font-family: var(--font-secondary);
+      background-color: var(--color-background);
+      color: var(--color-secondary);
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+    }
+    .container {
+      max-width: var(--layout-width-max);
+      width: 100%;
+      padding: 20px;
+    }
+    header, section, footer {
+      margin-bottom: 40px;
+    }
+    h1, h2, h3, h4 {
+      font-family: var(--font-primary);
+      margin-top: 0;
+    }
+    /* =======================
+       HEADER SECTION
+       ======================= */
+    .logo {
+      display: block;
+      max-width: 200px;
+      margin-bottom: 20px;
+    }
+    .header-title {
+      font-size: 2em;
+      color: var(--color-primary);
+      margin-bottom: 10px;
+    }
+    .header-subtitle {
+      font-size: 1.2em;
+      margin-bottom: 20px;
+    }
+    blockquote {
+      border-left: 4px solid var(--color-accent);
+      padding-left: 15px;
+      font-style: italic;
+      margin: 15px 0;
+      color: var(--color-secondary);
+    }
+    /* =======================
+       SECTION TITLES & TEXT
+       ======================= */
+    .section-title {
+      font-size: 1.8em;
+      margin-bottom: 10px;
+    }
+    p {
+      line-height: 1.6;
+    }
+    ul, ol {
+      margin-left: 20px;
+      line-height: 1.6;
+    }
+    /* =======================
+       CTA BUTTONS
+       ======================= */
+    .cta-button, .centered-button {
+      display: inline-block;
+      background-color: var(--color-primary);
+      color: #fff;
+      padding: 10px 20px;
+      text-decoration: none;
+      font-weight: bold;
+      border-radius: 5px;
+      margin: 10px 0;
+    }
+    .centered-button {
+      text-align: center;
+    }
+    /* =======================
+       EVENT CARDS (Activities)
+       ======================= */
+    .event-card {
+      border: 1px solid var(--color-accent);
+      padding: 15px;
+      margin-bottom: 15px;
+      border-radius: 5px;
+    }
+    /* =======================
+       MEME GALLERY
+       ======================= */
+
+    .meme-gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 10px;
+    }
+    .meme-gallery img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border: 1px solid var(--color-accent);
+    border-radius: 5px;
+    }
+
+    /* =======================
+       DIVIDERS
+       ======================= */
+    .divider {
+      border-top: 1px solid var(--color-accent);
+      margin: 20px 0;
+    }
+    /* =======================
+       RESPONSIVE DESIGN
+       ======================= */
+    @media (max-width: 600px) {
+      .container {
+        padding: 10px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+
+    <!-- ==============================================================
+         HEADER SECTION
+         ============================================================== -->
+    <header id="header">
+      <!-- Logo Placeholder -->
+      <img src="BSLOGO.png" alt="Bitcoin Society Logo" class="logo">
+      <h1 class="header-title">⚡️ The Sovereign Stack Begins at LSE</h1>
+      <p class="header-subtitle">A society for those who see through the fiat veil.</p>
+      <blockquote>
+        “Bitcoin is not a coin. It’s a mirror, a map, and a tool of liberation.”<br>
+        “It is the last firewall between human autonomy and digital totalitarianism.”<br>
+        “This is not just a student group. This is the founding node of a sovereign signal infrastructure at LSE.”
+      </blockquote>
+    </header>
+
+    <!-- ==============================================================
+         SECTION: Why We Exist
+         ============================================================== -->
+    <section id="why-we-exist">
+      <h2 class="section-title">🧠 Why We Exist</h2>
+      <p>The world is running a monetary simulation.</p>
+      <p>The pound is debased. The dollar is digital debt. CBDCs are control systems. Web3 is performative decentralization.</p>
+      <p>Bitcoin is something different. It’s:</p>
+      <ul>
+        <li>Open-source monetary law</li>
+        <li>Mathematics encoded in sovereignty</li>
+        <li>An ontological anchor in a collapsing consensus</li>
+      </ul>
+      <p>We’re building the only society at LSE that teaches how to exit the simulation — economically, intellectually, spiritually.</p>
+    </section>
+
+    <!-- ==============================================================
+         SECTION: Manifesto
+         ============================================================== -->
+    <section id="manifesto">
+      <h2 class="section-title">📜 Our Manifesto</h2>
+      <p><strong>We are not maximalists. We are minimalists — seeking what is real.</strong></p>
+      <ul>
+        <li>We reject the fiat illusion.</li>
+        <li>We build with intent, not hype.</li>
+        <li>We engage in symbolic warfare. Memes are our syntax.</li>
+        <li>We self-custody truth.</li>
+        <li>We onboard others with humility, precision, and fire.</li>
+      </ul>
+      <blockquote>
+        “This is a dojo for economic dissent, open to all who seek clarity beyond compliance.”
+      </blockquote>
+    </section>
+
+    <!-- ==============================================================
+         SECTION: Activities
+         ============================================================== -->
+    <section id="activities">
+      <h2 class="section-title">🧭 [Proposed] Upcoming Activities</h2>
+      <div class="event-card">
+        <h3>💥 Proof-of-Practice Workshops</h3>
+        <p>Hands-on sessions: self-custody, running a node, Lightning payments, FOSS tools.</p>
+      </div>
+      <div class="event-card">
+        <h3>🧬 Sovereign Salon Series</h3>
+        <p>Bi-weekly philosophy forums on money, freedom, governance, Bitcoin vs. the state.</p>
+      </div>
+      <div class="event-card">
+        <h3>🎙️ Guest Speakers [In the works]</h3>
+        <p>Experts from the Human Rights Foundation, Bitcoin Magazine, and grassroots adoption hubs.</p>
+      </div>
+      <div class="event-card">
+        <h3>🏛️ Flagship Event: 'The Future of Money'</h3>
+        <p>A multi-university summit dissecting the collapse of fiat and rise of parallel economies.</p>
+      </div>
+      <div class="event-card">
+        <h3>🍻 Decentralized Socials</h3>
+        <p>Pub nights + game theory + real talk. (Non-alcoholic options always available.)</p>
+      </div>
+    </section>
+
+    <!-- ==============================================================
+         SECTION: Value Proposition
+         ============================================================== -->
+    <section id="value-proposition">
+      <h2 class="section-title">🧰 What You’ll Get</h2>
+      <ul>
+        <li>A founding member seat in the most intellectually serious club at LSE</li>
+        <li>Access to private Telegram group, events, and knowledge drops</li>
+        <li>Training in Bitcoin sovereignty — for your mind, wallet, and future</li>
+        <li>Early invites to leadership roles, speaker vetting, and node-building squads</li>
+      </ul>
+      <p><strong>This isn’t about clout. It’s about coherence. If you feel the call, follow it.</strong></p>
+    </section>
+
+    <!-- ==============================================================
+         SECTION: Meme Gallery
+         ============================================================== -->
+         <section id="visual-signal-library">
+            <h2 class="section-title">👁️ Visual Signal Library</h2>
+            <div class="meme-gallery">
+              <img src="jokerpoliticsmeme.png" alt="Joker Politics Meme">
+              <img src="Ethmeme.png" alt="Eth Meme">
+              <img src="alexgmeme.png" alt="Alex Gladstein Meme">
+              <img src="bankrunmeme.png" alt="Bank Run Meme">
+              <img src="btcdovememe.png" alt="BTC Dove Meme">
+              <img src="imfmeme.png" alt="IMF Meme">
+              <img src="johnomeme.png" alt="John Oliver Meme">
+              <img src="fiatfishmeme.png" alt="Fiat Fish Meme">
+              <img src="freedommeme.png" alt="Freedom from Tyranny Meme">
+            </div>
+            <blockquote>
+              “When you see Bitcoin not as a price chart but as a mirror of civilization’s soul — you’re ready.”
+            </blockquote>
+          </section>
+          
+
+    <!-- ==============================================================
+         SECTION: Join Form (Call to Action)
+         ============================================================== -->
+    <section id="cta-join">
+      <h2 class="section-title">🕳️ Join the Founding Node</h2>
+      <a href="LINK_TO_TYPEFORM_OR_FORM_HANDLER" class="cta-button">I’m In →</a>
+      <p>This is your entry point.</p>
+      <div id="next-steps">
+        <h3>→ What Happens Next?</h3>
+        <ol>
+          <li>Fill out the form with your LSE email</li>
+          <li>Get access to the founding Telegram group</li>
+          <li>Vote on our first salons and speakers</li>
+          <li>Help shape the most important society at LSE</li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- ==============================================================
+         SECTION: Genesis Signal
+         ============================================================== -->
+         <section id="genesis-block">
+            <h2 class="section-title">🟠 Genesis Signal</h2>
+            <blockquote>
+              “The Times 03/Jan/2009 Chancellor on brink of second bailout for banks”
+            </blockquote>
+            <p id="block-height"><strong>Loading block height...</strong></p>
+          </section>
+          
+          <script>
+            // **This script uses the Blockstream API to fetch the current Bitcoin block height.**
+            fetch('https://blockstream.info/api/blocks/tip/height')
+              .then(response => {
+                if (!response.ok) throw new Error('Network response was not ok');
+                return response.text();
+              })
+              .then(height => {
+                document.getElementById('block-height').innerHTML = `<strong>Block Height: ${height} — still ticking.</strong>`;
+              })
+              .catch(error => {
+                document.getElementById('block-height').innerHTML = `<strong>Error fetching block height</strong>`;
+                console.error('Error fetching block height:', error);
+              });
+          </script>
+          
+
+    <!-- ==============================================================
+         SECTION: Beginner Onboarding
+         ============================================================== -->
+    <section id="beginner-onboarding">
+      <h2 class="section-title">🕊️ For Newcomers</h2>
+      <p>New to Bitcoin? Confused by crypto? Perfect. We’ll teach you everything — from Satoshi to self-custody.</p>
+      <p><strong>No experience required. Just curiosity, openness, and courage.</strong></p>
+    </section>
+
+    <!-- ==============================================================
+         SECTION: Legal & Ethical Commitments
+         ============================================================== -->
+    <section id="ethics-and-integrity">
+      <h2 class="section-title">🛡️ Ethos</h2>
+      <ul>
+        <li>Non-political, non-partisan, non-profit</li>
+        <li>Compliant with all LSESU policies</li>
+        <li>Open to all students — regardless of department, background, or belief</li>
+        <li>No altcoin promotion, no scams, no “get-rich-quick” energy</li>
+        <li>We disclose all funding and partnerships transparently</li>
+      </ul>
+    </section>
+
+    <!-- ==============================================================
+         SECTION: Privacy Notice
+         ============================================================== -->
+    <section id="privacy-notice">
+      <h2 class="section-title">📜 Privacy & Integrity</h2>
+      <p>We only collect your name and LSE email to confirm your membership and participation.</p>
+      <p><strong>No spam. No surveillance. No selling data. Ever.</strong></p>
+    </section>
+
+    <!-- ==============================================================
+         SECTION: Final Reminder
+         ============================================================== -->
+    <section id="final-reminder">
+      <h2 class="section-title">⚠️ Final Reminder</h2>
+      <blockquote>
+        “The first Sovereign Salon begins Week 2, Michaelmas Term. If you’re not on the founding list before then — you’ll miss the genesis moment.”
+      </blockquote>
+    </section>
+
+    <!-- ==============================================================
+         FINAL CTA BUTTON
+         ============================================================== -->
+    <section id="final-cta">
+      <a href="LINK_TO_TYPEFORM_OR_FORM_HANDLER" class="centered-button">🟧 I’m In →</a>
+      <p>Become one of the 20. Help launch the signal node. Shape the future of Bitcoin at LSE.</p>
+    </section>
+
+    <!-- ==============================================================
+         FOOTER (Compliance / Aesthetic Closure)
+         ============================================================== -->
+    <footer id="footer">
+      <div class="divider"></div>
+      <p>This group operates within all LSESU guidelines. We are non-political, non-profit, and open to all LSE students regardless of background or belief.</p>
+      <p><small>End of Page. Beginning of Stack.</small></p>
+    </footer>
+
+  </div>
+</body>
+</html>
